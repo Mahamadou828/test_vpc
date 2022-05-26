@@ -11,7 +11,7 @@ const (
 	// Host name of the HTTP Server
 	Host = "localhost"
 	// Port of the HTTP Server
-	Port = "3030"
+	Port = "8080"
 )
 
 func home(w http.ResponseWriter, r *http.Request) {
